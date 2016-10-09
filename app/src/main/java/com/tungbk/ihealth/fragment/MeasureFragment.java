@@ -30,17 +30,6 @@ public class MeasureFragment extends Fragment {
 
 
         heartRateButton = (ImageView) v.findViewById(R.id.heart_view_measure_image);
-//        heartRateButton.setImageDrawable(getResources().getDrawable(R.drawable.heart_rate_anim));
-//        AnimationDrawable animation = new AnimationDrawable();
-//        animation.addFrame(getResources().getDrawable(R.drawable.heart_rate), 1000);
-//        animation.addFrame(getResources().getDrawable(R.drawable.heart_rate_white), 1000);
-//        animation.setOneShot(false);
-//
-//        heartRateButton.setBackgroundDrawable(animation);
-
-//        animation.start();
-
-
         final Handler handler = new Handler();
         Runnable runnable = new Runnable() {
             int i = 0;
