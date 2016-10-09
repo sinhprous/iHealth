@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">IHealth</string>
+
+    <string-array name="health_tips">
+        <item>Ăn sáng là bữa ăn quan trọng nhất trong ngày.</item>
+        <item>Hãy viết những khó chịu lên giấy và cho vào thùng rác.</item>
+        <item>Nên sử dụng xà phòng thơm thay vì xà phòng diệt khuẩn.</item>
+        <item>Tắm bằng nước nóng sẽ làm giảm cơ hội có con.</item>
+        <item>Sự tự tin giúp tăng tuổi thọ của bạn.</item>
+    </string-array>
+
 </resources>
