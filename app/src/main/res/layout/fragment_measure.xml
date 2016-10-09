@@ -26,7 +26,7 @@
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/ic_red_heart"
+            android:src="@drawable/ic_simple_heart"
             android:layout_marginLeft="8dp"
             />
 
@@ -35,7 +35,6 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:textColor="#ff0000"
-            android:layout_marginLeft="8dp"
             android:text="69" />
 
         <ImageView

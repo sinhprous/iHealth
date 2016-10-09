@@ -48,7 +48,6 @@ public class MeasureFragment extends Fragment {
         handler.postDelayed(runnable, 300);
 
         String[] tipArray = getResources().getStringArray(R.array.health_tips);
-
         heartRateButton = (ImageView) v.findViewById(R.id.heart_view_measure_image);
         tipTextView = (TextView) v.findViewById(R.id.tip_text_view);
         tipTextView.setEllipsize(TextUtils.TruncateAt.MARQUEE);
@@ -56,7 +55,6 @@ public class MeasureFragment extends Fragment {
         tipTextView.setSingleLine(true);
         Random r = new Random();
         tipTextView.setText(tipArray[r.nextInt(tipArray.length)]);
-
         return v;
     }
 }
